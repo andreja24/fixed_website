@@ -1,0 +1,64 @@
+@font-face {
+    font-family:'Roboto_regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+body{
+    margin: 0;
+    font-family: 'Roboto_regular', sans-serif;
+}
+footer, header, main, button{
+    height: 60px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    height:601px;
+    background-color:#3c506b;;
+}
+ nav a, footer span{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-left: 24px;
+    margin-top:0;
+    margin-bottom:0;
+}
+nav{
+    margin-right:17px;
+}
+header img{
+    height: 60px;
+    width: 60px;
+}
+footer, aside{
+    justify-content: center;
+    flex-direction: column;
+}
+aside{
+    background-color: #4a6387;
+    display: flex;
+    width:400px;
+    height:350px;
+    align-items: center;
+    border-radius: 30px;
+}
+button, input{
+    width:300px;
+    height:30px;
+    margin:6px;
+    border-radius: 30px;
+    border: none;
+    color:#4a6387;
+}
+h2{
+    font-size: 32px;
+    color:white;
+}
+p{
+    color:white;
+}
+p a{
+    color: #1F2937;
+}

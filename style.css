@@ -1,0 +1,107 @@
+@font-face {
+    font-family:'Roboto_regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+body{
+    margin: 0;
+    font-family: 'Roboto_regular', sans-serif;
+}
+h2, blockquote{
+    font-size: 36px;
+}
+.one p, button a, nav a, figcaption, .four p, h1, footer span{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.two figure figcaption{
+    color:#1F2937;
+}
+footer, header, .one{
+    height: 60px;
+    background-color: #1F2937;;
+}
+header img{
+    height: 60px;
+    width: 60px;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+}
+button, .four figure, .two figure img{
+    width: 110px;
+    height: 30px;
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.one, .four{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one img, .one aside{
+    height: 240px;
+    width: 500px;
+}
+.two div, .four, .four figure{
+    display: flex;
+}
+.two figure, .two, .three, footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.four, .two{
+    height: 250px;
+    background-color: #F9FAF8;
+}
+.two, .three{
+    height: 490px;
+    justify-content: center;
+}
+.three{
+    background-color: #E5E7EB;
+}
+.three figure, .one aside{
+    display: flex;
+    flex-direction: column;
+}
+.three figure figcaption{
+    align-self: flex-end;
+    font-size: 24px;
+    margin-right:50px;
+    color:#1F2937;
+}
+.four figure{
+    align-items: center;
+    height: 125px;
+    width: 700px;
+    justify-content: space-around;
+}
+h3, .four p, nav a {
+    margin-left: 20px;
+    color:white;
+    margin-top:0;
+    margin-bottom:0;
+}
+.two figure img{
+    width: 180px;
+    height: 180px;
+}
+h1{
+    font-size:48px ;
+    margin: 0;
+}
+.four button{
+    border: 1px solid white;
+    margin-right: 20px;
+}
+footer{
+    justify-content: center;
+}
